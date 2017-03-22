@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM frolvlad/alpine-glibc:latest
 
 MAINTAINER Daniel Widerin <daniel@widerin.net>
 
