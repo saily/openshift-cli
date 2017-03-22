@@ -4,7 +4,7 @@ OpenShift CLI for CI/CD
 This [Openshift command line tool](https://docs.openshift.com/enterprise/3.0/cli_reference/get_started_cli.html) docker
 image ships `oc` and includes `gettext` so you can use `envsubst` to substitute
 environment variables in your CI/CD pipeline, for example using in
-[Jenkins](https://jenkins.io/) or a job in [GitLab CI `.gitlab-ci.yaml` file](https://docs.gitlab.com/ce/ci/yaml/README.html#gitlab-ci-yml).
+[Jenkins](https://jenkins.io/) or a job in [GitLab CI .gitlab-ci.yml file](https://docs.gitlab.com/ce/ci/yaml/README.html#gitlab-ci-yml).
 
 Examples
 --------
