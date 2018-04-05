@@ -4,7 +4,7 @@ MAINTAINER Daniel Widerin <daniel@widerin.net>
 
 ENV OC_VERSION=v3.7.0 \
     OC_TAG_SHA=7ed6862 \
-    BUILD_DEPS='tar gzip' \
+    BUILD_DEPS='tar gzip git' \
     RUN_DEPS='curl ca-certificates gettext'
 
 RUN apk --no-cache add $BUILD_DEPS $RUN_DEPS && \
