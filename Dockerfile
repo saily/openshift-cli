@@ -2,8 +2,8 @@ FROM frolvlad/alpine-glibc:latest
 
 MAINTAINER Daniel Widerin <daniel@widerin.net>
 
-ENV OC_VERSION=v3.9.0 \
-    OC_TAG_SHA=191fece \
+ENV OC_VERSION=v3.10.0 \
+    OC_TAG_SHA=dd10d17 \
     BUILD_DEPS='tar gzip' \
     RUN_DEPS='curl ca-certificates gettext'
 
