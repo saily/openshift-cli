@@ -6,6 +6,15 @@ image ships `oc` and includes `gettext` so you can use `envsubst` to substitute
 environment variables in your CI/CD pipeline, for example using in
 [Jenkins](https://jenkins.io/) or a job in [GitLab CI .gitlab-ci.yml file](https://docs.gitlab.com/ce/ci/yaml/README.html#gitlab-ci-yml).
 
+Image Build
+-----------
+
+Choose the version for openshift cli based on what is available on Openshift mirror: https://mirror.openshift.com/pub/
+
+Add the version as value for ARG `OC_VERSION`. Example:
+
+`docker build -t myimages/openshift-cli:4.2 --build-arg OC_VERSION=4.2 .`
+
 Examples
 --------
 
